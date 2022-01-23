@@ -43,12 +43,5 @@ export const Nav = styled.div`
   & a:hover {
     color: red;
   }
-  /*Ipad ngang(1024 x 768)*/
-  @media screen and (max-width: 1024px) {
-    display: none;
-  }
-  /*Ipad dọc(768 x 1024)*/
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
+ 
 `;

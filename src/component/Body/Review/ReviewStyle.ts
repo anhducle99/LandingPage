@@ -9,24 +9,14 @@ export const WrapCustomerFeedback = styled.div`
   background-position: center;
   background-size: cover;
   height: auto;
-  /*Ipad ngang(1024 x 768)*/
-  @media screen and (max-width: 1024px) {
-  }
-  /*Ipad dọc(768 x 1024)*/
-  @media screen and (max-width: 768px) {
-  }
+ 
 `;
 
 export const ContainerCustomerFeedback = styled.div`
   max-width: 39%;
   padding: 80px 0;
   margin: 0 auto;
-  /*Ipad ngang(1024 x 768)*/
-  @media screen and (max-width: 1024px) {
-  }
-  /*Ipad dọc(768 x 1024)*/
-  @media screen and (max-width: 768px) {
-  }
+ 
 `;
 
 export const UpCustomerFeedback = styled.div`
@@ -55,12 +45,7 @@ export const UpCustomerFeedback = styled.div`
       margin-top: 0px !important;
     }
   }
-  /*Ipad ngang(1024 x 768)*/
-  @media screen and (max-width: 1024px) {
-  }
-  /*Ipad dọc(768 x 1024)*/
-  @media screen and (max-width: 768px) {
-  }
+  
 `;
 
 export const DownCustomerFeedback = styled.div`
@@ -120,12 +105,7 @@ export const DownCustomerFeedback = styled.div`
     .client-details {
     }
   }
-  /*Ipad ngang(1024 x 768)*/
-  @media screen and (max-width: 1024px) {
-  }
-  /*Ipad dọc(768 x 1024)*/
-  @media screen and (max-width: 768px) {
-  }
+  
 `;
 
 export const SubDownCustomerFeedback = styled.div`
@@ -147,10 +127,5 @@ export const SubDownCustomerFeedback = styled.div`
     background-color: #3b04db;
     color: #fff;
   }
-  /*Ipad ngang(1024 x 768)*/
-  @media screen and (max-width: 1024px) {
-  }
-  /*Ipad dọc(768 x 1024)*/
-  @media screen and (max-width: 768px) {
-  }
+  
 `;

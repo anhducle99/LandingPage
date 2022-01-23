@@ -1,3 +1,4 @@
+import { wrap } from 'module';
 import React from 'react';
 import { ItemFeature, ItemContainer, Div } from './FeaturesStyle';
 import './ListFeaturesStyle.css'
@@ -36,7 +37,7 @@ export const ListFeatures = () => {
         }
     ]
     return (
-        <div>
+        <Div >
             {
                 listFeatures.map((lists, index) => {
                     return (
@@ -52,6 +53,6 @@ export const ListFeatures = () => {
                     )
                 })
             }
-        </div>
+        </Div >
     );
 };

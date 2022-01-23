@@ -4,14 +4,6 @@ export const WrapWhyChooseOurProduct = styled.div`
 display: flex;
 justify-content: center;
 background-color:#f6f6f6;
-/*Ipad ngang(1024 x 768)*/
-@media screen and (max-width: 1024px) {
-
-}
-/*Ipad dọc(768 x 1024)*/
-@media screen and (max-width: 768px) {
-
-}
 `;
 
 export const ContainerWhyChooseOurProduct = styled.div`
@@ -19,14 +11,7 @@ max-width:1140px;
 // background-color: red
 padding-top: 50px;
 padding-bottom: 100px;
-/*Ipad ngang(1024 x 768)*/
-@media screen and (max-width: 1024px) {
-  max-width: 70%;
-}
-/*Ipad dọc(768 x 1024)*/
-@media screen and (max-width: 768px) {
 
-}
 `;
 
 export const WrapContentUp = styled.div` 
@@ -54,16 +39,8 @@ padding-bottom: 50px;
     color: #444;
   }
 }
-/*Ipad ngang(1024 x 768)*/
-@media screen and (max-width: 1024px) {
-  .contentup{
-    max-width:90%;
-  }
-}
-/*Ipad dọc(768 x 1024)*/
-@media screen and (max-width: 768px) {
 
-}
+
 `;
 
 export const WrapContentDown = styled.div`
@@ -112,18 +89,5 @@ export const WrapContentDown = styled.div`
     text-align: center;
     margin: 8px 10px 0 0;
 }
-/*Ipad ngang(1024 x 768)*/
-@media screen and (max-width: 1024px) {
-.contentdown{
- flex-direction: column;
- 
- .why-chose-single{
-   padding-left: 10px;
- }
-}
-}
-/*Ipad dọc(768 x 1024)*/
-@media screen and (max-width: 768px) {
 
-}
 `;

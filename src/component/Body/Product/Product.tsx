@@ -1,6 +1,6 @@
 import React from 'react'
 import { WrapOurProduct, ContainerOurProduct, UpOurProduct, DownOurProduct, Div } from './ProductStyle';
-import { ListProduct } from './ListProduct';
+
 
 export const Product = () => {
   return (
@@ -13,7 +13,7 @@ export const Product = () => {
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic explicabo voluptas nisi iste reiciendis, tempore commodi necessitatibus, laborum laudantium.</p>
           </div>
         </UpOurProduct>
-        {/* <DownOurProduct>
+        <DownOurProduct>
           <div className="downContent">
             <div className="singleContent" >
               <img src={require('../../Img/watch-img.jpg')} alt="error Images" />
@@ -86,10 +86,10 @@ export const Product = () => {
             </div>
 
           </div>
-        </DownOurProduct> */}
-        <DownOurProduct>
-          <ListProduct />
         </DownOurProduct>
+        {/* <DownOurProduct>
+          <ListProduct />
+        </DownOurProduct> */}
       </ContainerOurProduct>
     </WrapOurProduct>
   )

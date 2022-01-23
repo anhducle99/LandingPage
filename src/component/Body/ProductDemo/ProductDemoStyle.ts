@@ -8,12 +8,7 @@ export const Div = styled.div`
 export const ContainerSubHome = styled.div`
   width: 100%;
   margin: auto;
-  /*Ipad ngang(1024 x 768)*/
-  @media screen and (max-width: 1024px) {
-  }
-  /*Ipad dọc(768 x 1024)*/
-  @media screen and (max-width: 768px) {
-  }
+ 
 `;
 
 export const SubHomeContent = styled.div`
@@ -21,14 +16,7 @@ export const SubHomeContent = styled.div`
   // flex-direction: row-reverse;
 
   /*Ipad ngang(1024 x 768)*/
-  @media screen and (max-width: 1024px) {
-    // flex-direction: column;
-    flex-direction: column-reverse;
-  }
-  /*Ipad dọc(768 x 1024)*/
-  @media screen and (max-width: 768px) {
-    flex-direction: column-reverse;
-  }
+ 
 `;
 export const CaptionContent = styled.div`
   max-width: 500px;
@@ -74,25 +62,12 @@ export const CaptionContentSubHome = styled.div`
     margin: 45px 0 0;
     background-color: #3b04db;
   }
-  /*Ipad ngang(1024 x 768)*/
-  @media screen and (max-width: 1024px) {
-    padding-left: 0px;
-    // flex-direction: column;
-  }
-  /*Ipad dọc(768 x 1024)*/
-  @media screen and (max-width: 768px) {
-    padding-left: 0px;
-  }
+  
 `;
 
 export const CaptionImageSubHome = styled.div`
    flex: 1;
-  /*Ipad ngang(1024 x 768)*/
-  @media screen and (max-width: 1024px) {
-  }
-  /*Ipad dọc(768 x 1024)*/
-  @media screen and (max-width: 768px) {
-  }
+
 `;
 
 export const HeroButtonSubHome = styled.div``;

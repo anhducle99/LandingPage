@@ -15,7 +15,7 @@ export const Features = () => {
               </p>
             </Content>
           </Div>
-          {/* <Div className='item'>
+          <Div className='item'>
             <ItemContainer>
               <ItemFeature >
                 <i className="fas fa-globe"></i>
@@ -60,10 +60,10 @@ export const Features = () => {
                 <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim</p>
               </ItemFeature>
             </ItemContainer>
-          </Div> */}
-          <Div className='item'>
-            <ListFeatures />
           </Div>
+          {/* <Div className='item'>
+            <ListFeatures />
+          </Div> */}
         </FeatureContent>
       </ContainerAuth>
     </ContainerFeatures>

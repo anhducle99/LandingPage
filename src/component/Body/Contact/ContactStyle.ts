@@ -3,25 +3,14 @@ import styled from "@emotion/styled";
 export const WrapNeedHelp = styled.div`
   display: flex;
   justify-content: center;
-  /*Ipad ngang(1024 x 768)*/
-  @media screen and (max-width: 1024px) {
-  }
-  /*Ipad dọc(768 x 1024)*/
-  @media screen and (max-width: 768px) {
-  }
+ 
 `;
 
 export const ContainerNeedHelp = styled.div`
   display: flex;
   max-width: 61%;
   padding: 100px 0;
-  /*Ipad ngang(1024 x 768)*/
-  @media screen and (max-width: 1416px) {
-    flex-direction: column;
-  }
-  /*Ipad dọc(768 x 1024)*/
-  @media screen and (max-width: 768px) {
-  }
+ 
 `;
 
 export const LeftNeedHelp = styled.div`
@@ -49,14 +38,7 @@ export const LeftNeedHelp = styled.div`
       margin-top: 0px;
     }
   }
-  /*Ipad ngang(1024 x 768)*/
-  @media screen and (max-width: 1416px) {
-    text-align: center;
-    margin: 0 auto;
-  }
-  /*Ipad dọc(768 x 1024)*/
-  @media screen and (max-width: 768px) {
-  }
+ 
 `;
 
 export const RightNeedHelp = styled.div`
@@ -109,11 +91,5 @@ export const RightNeedHelp = styled.div`
     margin: 10px 0 0;
     background-color: #3b04db;
   }
-  @media screen and (max-width: 1416px) {
-    max-width: 70%;
-    margin: 0 auto;
-  }
-  /*Ipad dọc(768 x 1024)*/
-  @media screen and (max-width: 768px) {
-  }
+ 
 `;
